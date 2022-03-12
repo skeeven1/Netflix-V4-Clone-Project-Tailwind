@@ -1,0 +1,640 @@
+<!DOCTYPE html> <!--I said my favicon wasn't working because "<" has disappeared, so now it works-->  
+<html lang="en">
+<html class="dark overflow-x-hidden">
+  
+    <head>
+
+       
+        <meta charset="UTF-8" />
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        <meta name="Skeeven" content="RohanJOJO"/>
+
+        
+        <meta name="description" content="Watch TV Shows Online, Watch Movies Online"/>
+
+        
+        <title>Home - Netflix of Skeeven</title>
+
+        
+        <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+        
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+        <!--I don't know why overflow-x-hidden does'nt work so I put this and it works-->  
+        <style>
+        .no-scrollbar::-webkit-scrollbar {display: none;}
+        </style>
+        
+    
+    </head>
+
+    <body class="bg-black overflow-x-hidden">
+
+      
+
+        <header>
+
+           
+            <section class="fixed top-0 w-full bg-gradient-to-b from-black text-white z-50">
+ 
+                <div class="flex xl:flex-row flex-col items-center py-5 px-12 ml-2 z-50">
+
+                    
+                    <a href="https://www.netflix.com/fr/">
+                        <img src="assets/img/logo/netflix-logo2.png" alt="Netflix" class="w-36 cursor-pointer "/>
+                        
+                    </a>
+                    
+
+                    
+                    <nav class="hidden xl:flex space-x-6 ml-10 text-lg font-semibold w-1/2 z-20">
+                        <a href="#" class="font-medium">Home</a>
+                        <a href="#" class="hover:text-yellow-400">TV Shows</a>
+                        <a href="#" class="hover:text-blue-400">Movies</a>
+                        <a href="#" class="hover:text-yellow-400">New & Popular</a>
+                        <a href="#" class="hover:text-blue-400">My List</a>
+                        <a href="#" class="hover:text-yellow-400">Watch Again</a>
+                    </nav>
+
+                    
+                    <nav class="hidden xl:flex justify-center items-center space-x-8 ml-auto text-base font-semibold">
+                        <button><i class="fas fa-search text-xl cursor-pointer focus:outline-none hover:text-gray-400"></i></button>
+                        <button><i class="fas fa-gift text-xl cursor-pointer focus:outline-none hover:text-gray-400"></i></button>
+                        <button><i class="fas fa-bell text-xl cursor-pointer focus:outline-none hover:text-gray-400"></i>
+                            <span class="space-y-2">
+                                
+                                <span class="relative inline-flex rounded-full h-2 w-2 bg-sky-500 animate-ping"></span>
+                              </span>
+                        </button>
+
+                        <button class="flex items-center focus:outline-none">
+                            <img src="assets/img/avatar.gif" alt="Avatar" class="w-10 h-08 rounded"/>
+                            <svg class="w-5 h-5 text-white ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                            </svg>
+
+                        </button>
+
+                    </nav>
+                </div>
+
+            </section>
+
+            
+            <section class="h-screen z-0 ">
+
+                <div>
+
+                    <img src="assets/img/index/bojji.gif" alt="ranking_of_king" class="w-full h-screen object-cover"/>  
+                    
+                    
+                    <div class="absolute top-40 px-16 z-0">
+
+                        <div class="flex flex-col xl:w-2/6 lg:w-2/6 md:w-3/6 sm:w-3/6 space-y-2 py-12 z-10">
+                            <img src="assets/img/index/Ōsama_Ranking_Logo.png" alt="ranking_of_king"/>
+                            <p class="text-white text-lg text-justify">In a world where kings are ranked among themselves, young Prince Bojji starts at the bottom. Naïve, deaf and frail, his people do not count on him to make the kingdom shine. But his meeting with Shadow, a lowly monster with a big heart, will ignite a small spark of courage in him. Together, everything becomes possible, including getting Bojji to the top of the king's list!</p>
+
+                            <div class="flex flex-row w-full space-x-4">
+                                <button class="flex justify-center items-center bg-white hover:bg-opacity-80 rounded-lg shadow-md space-x-2 px-8 py-2 mt-5">
+                                    <i class="fas fa-play"></i>
+                                    <span class="text-gray-800 font-semibold">Play</span>
+
+                                </button>
+                                <button class="flex justify-center items-center bg-gray-800 bg-opacity-80 hover:bg-opacity-60 rounded-lg shadow-md space-x-2 px-8 py-2 mt-5">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path> 
+                                    </svg>
+                                    <span class="text-white font-semibold">More Info</span>
+                                </button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                </section>
+
+        </header>
+
+        <main>
+            
+         <!--My  List Section-->   
+        <section class=" my-6 mx-12 space-y-4   ">
+            
+             
+            <h1 class="text-white text-2xl font-bold">My List</h1> 
+            <div class=" w-auto overflow-x-scroll no-scrollbar  ">
+                
+                
+                <div class="flex space-x-2">
+                    
+                    
+                        <img src="assets/img/images main/erased.png" alt="erased" class="rounded-lg w-80 ">
+                    
+                    
+                        <img src="assets/img/images main/rezero.jpg" alt="rezero" class="rounded-lg w-80 ">
+                    
+                    
+                        <img src="assets/img/images main/hero.jpg" alt="hero" class="rounded-lg w-80 ">
+                    
+                    
+                        <img src="assets/img/images main/tpm.jpg" alt="tpm" class="rounded-lg w-80 ">
+                    
+                    
+                        <img src="assets/img/images main/ragf.jpg" alt="ragf" class="rounded-lg w-80 ">
+                    
+                        <img src="assets/img/images main/kakegurui.png" alt="lakegirui" class="rounded-lg w-80 ">
+                    
+                </div>
+            </div>
+        </section>
+
+        <!--For You Section-->  
+        <section class="mx-12 my-6 space-y-4">
+            <p class="text-white text-2xl font-bold">For you </p>
+            <div class=" w-auto overflow-x-scroll no-scrollbar ">
+                <div class="flex space-x-2">
+                    
+                        <img class="rounded-lg w-80 " src="assets/img/images main/raimbow.jpg">
+                    
+                    
+                        <img  class="rounded-lg w-80 "src="assets/img/images main/myneighbortotoro.png">
+                    
+                    
+                        <img class="rounded-lg w-80 " src="assets/img/images main/myheroacademia.png" >
+                    
+                    
+                        <img class="rounded-lg w-80 " src="assets/img/images main/onepunchman.png">
+                    
+                    
+                        <img class="rounded-lg w-80 " src="assets/img/images main/narutothelast.png">
+                    
+                        <img class="rounded-lg w-80 " src="assets/img/images main/lacasadepapel.png">
+                    
+                </div>
+            </div>
+        </section>
+
+        <!--Trending Now Section-->   
+        <section class="mx-8 my-6 space-x-4 space-y-4">
+  
+            <h1 class="text-white text-2xl font-bold mx-4">Trending Now </h1>
+    
+                    <div class="space-x-2 flex overflow-x-scroll items-center no-scrollbar"> 
+
+                                <img class="w-80 rounded-lg" src="assets/img/images main/mc.jpg" alt="minecraft">
+                          
+                                <img class="w-80 rounded-lg" src="assets/img/images main/attackontitan.png" alt="aot">
+        
+                                <img class="w-80 rounded-lg" src="assets/img/images main/assassinationclassroom.png" alt="ac">
+                          
+                                <img class="w-80 rounded-lg" src="assets/img/images main/assassinscreed.png" alt="as">
+                          
+                                <img class="w-80 rounded-lg" src="assets/img/images main/berserk.png" alt="berserk">
+                          
+                                <img class="w-80 rounded-lg" src="assets/img/images main/fullmetalalchemist.png" alt="fma">
+                          
+                    </div>  
+                
+                </section>
+
+                <!--My  Watch It Again Section-->  
+                <section class="mx-12 my-6 space-y-4">
+                    <h1 class="text-white text-2xl font-bold">Watch It Again </h1>
+                    <div class=" w-auto overflow-x-scroll no-scrollbar ">
+                        <div class="flex space-x-2">
+                            
+                                <img class="rounded-lg w-80 " src="assets/img/images main/a love so.jpg">
+                            
+                            
+                                <img  class="rounded-lg w-80 "src="assets/img/images main/ano hana.jpg">
+                            
+                            
+                                <img class="rounded-lg w-80 " src="assets/img/images main/darling.jpg">
+                            
+                            
+                                <img class="rounded-lg w-80 " src="assets/img/images main/inazuma.jpg">
+                        
+                            
+                                <img class="rounded-lg w-80 " src="assets/img/images main/garcon d'a coté.jpg">
+                            
+                                <img class="rounded-lg w-80 " src="assets/img/images main/love alarm.jpg">
+                            
+                        </div>
+                    </div>
+                </section>
+
+
+              
+        
+                <!--Jojo's By Characters Section--> 
+                <section class="z-0 my-6 mx-12">
+                <h1 class="text-white text-2xl mx-1 font-bold">Jojo's By Characters</h1>    
+                    
+                <div class="space-x-3 space-y-4 mt-6 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-7">
+                    
+                    <div class="cursor-pointer relative z-30 ml-3 mt-4">
+                        <a href="#"><img src="assets/img/images main/giorno_gif.gif" alt="giorno" class="rounded-lg w-56 h-24"></a>
+                        <div class=" pt-9 absolute inset-0 px-6 bg-gradient-to-r from-indigo-700 hover:from-indigo-500 rounded-lg w-32 h-24 ">
+                                <span class="font-bold text-white text-lg">Giorno<span>
+                            </div>
+                        </div>
+        
+                    <div class="cursor-pointer relative z-30 ml-1">
+                        <a href="#"><img src="assets/img/images main/jonathan.jpg" alt="jonathan" class="rounded-lg w-56 h-24"></a>
+                        <div class=" pt-9 absolute inset-0 px-6 bg-gradient-to-r from-yellow-500 hover:from-yellow-400 rounded-lg w-32 ">
+                                <span class="font-bold text-white text-lg">Jonathan<span>
+                            </div>
+                        </div>
+        
+        
+                    <div class="cursor-pointer relative z-30 ml-1">
+                        <a href="#"><img src="assets/img/images main/joseph.webp" alt="joseph" class="rounded-lg w-56 h-24"></a>
+                        <div class=" pt-9 absolute inset-0 px-6 bg-gradient-to-r from-orange-900 hover:from-orange-400 rounded-lg w-32 ">
+                                <span class="font-bold text-white text-lg">Joseph<span>
+                            </div>
+                        </div>
+        
+                    <div class="cursor-pointer relative z-30 ml-1">
+                        <a href="#"><img src="assets/img/images main/jotaro.gif" alt="jotaro" class="rounded-lg w-56 h-24"></a>
+                        <div class=" pt-9 absolute inset-0 px-6 bg-gradient-to-r from-gray-700 hover:from-gray-500 rounded-lg w-32 ">
+                                <span class="font-bold text-white text-lg">Jotaro<span>
+                            </div>
+                        </div>
+        
+                    <div class="cursor-pointer relative z-30 ml-1">
+                        <a href="#"><img src="assets/img/images main/josuke.webp" alt="josuke" class="rounded-lg w-56 h-24"></a>
+                        <div class=" pt-9 absolute inset-0 px-6 bg-gradient-to-r from-blue-600 hover:from-blue-400 rounded-lg w-32 ">
+                                <span class="font-bold text-white text-lg">Josuke<span>
+                            </div>
+                        </div>
+        
+                    <div class="cursor-pointer relative z-30 ml-1">
+                        <a href="#"><img src="assets/img/images main/jolyne.jpg" alt="jolyne" class="rounded-lg w-56 h-24"></a>
+                        <div class=" pt-9 absolute inset-0 px-6 bg-gradient-to-r from-green-900 hover:from-green-700 rounded-lg w-32 ">
+                                <span class="font-bold text-white text-lg">Jolyne<span>
+                            </div>
+                        </div>
+        
+        
+                    <div class="cursor-pointer relative z-30 ml-1">
+                        <a href="#"><img src="assets/img/images main/johnny.jpg" alt="johnny" class="rounded-lg w-56 h-24"></a>
+                        <div class=" pt-9 absolute inset-0 px-6 bg-gradient-to-r from-teal-400 hover:from-teal-600 rounded-lg w-32 ">
+                                <span class="font-bold text-white text-lg">Johnny<span>
+                            </div>
+                        </div>
+        
+                    <div class="cursor-pointer relative z-30 ml-1">
+                        <a href="#"><img src="assets/img/images main/josukev2.png" alt="ajin" class="rounded-lg w-56 h-24"></a>
+                        <div class=" pt-9 absolute top-1 bottom-1 px-6 bg-gradient-to-r from-cyan-400 hover:from-cyan-100 rounded-lg w-32 ">
+                                <span class="font-bold text-white text-lg">Josuke?!<span>
+                            </div>
+                        </div>
+                    
+                    <div class="cursor-pointer relative z-30 ml-1">
+                        <a href="#"><img src="assets/img/images main/caesar.jpg" alt="caesar" class="rounded-lg w-56 h-24"></a>
+                        <div class=" pt-9 absolute inset-0 px-6 bg-gradient-to-r from-pink-700 hover:from-pink-500 rounded-lg w-32 ">
+                                <span class="font-bold text-white text-lg">Caesar<span>
+                            </div>
+                        </div>
+        
+                    <div class="cursor-pointer relative z-30 ml-1">
+                        <a href="#"><img src="assets/img/images main/zawarudo.gif" alt="dio" class="rounded-lg w-56 h-24"></a>
+                        <div class=" pt-9 absolute inset-0 px-6 bg-gradient-to-r from-amber-500 hover:from-amber-300 rounded-lg w-32 ">
+                                <span class="font-bold text-white text-lg">DIO<span>
+                            </div>
+                        </div>
+        
+                    <div class="cursor-pointer relative z-30 ml-1">
+                        <a href="#"><img src="assets/img/images main/kira.jpg" alt="kira" class="rounded-lg w-56 h-24"></a>
+                        <div class=" pt-9 absolute inset-0 px-6 bg-gradient-to-r from-purple-600 hover:from-purple-500 rounded-lg w-32 ">
+                                <span class="font-bold text-white text-lg">KIRA<span>
+                            </div>
+                        </div>
+        
+                    <div class="cursor-pointer relative z-30 ml-1">
+                        <a href="#"><img src="assets/img/images main/diavolo.jpg" alt="diavolo" class="rounded-lg w-56 h-24"></a>
+                        <div class=" pt-9 absolute inset-0 px-6 bg-gradient-to-r from-rose-700 hover:from-rose-500 rounded-lg w-32 ">
+                                <span class="font-bold text-white text-lg">DIAVOLO<span>
+                            </div>
+                        </div>
+        
+                        <div class="cursor-pointer relative z-30 ml-1">
+                            <a href="#"><img src="assets/img/images main/pucci.jpg" alt="ajin" class="rounded-lg w-56 h-24"></a>
+                            <div class=" pt-9 absolute inset-0 px-6 py-4 bg-gradient-to-r from-gray-700 hover:from-violet-700 rounded-lg w-32 ">
+                                    <span class="font-bold text-white text-lg">PUCCI<span>
+                                </div>
+                            </div>
+            
+                        <div class="cursor-pointer relative z-30 ml-1">
+                            <a href="#"><img src="assets/img/images main/rengoku.jpg" alt="ajin" class="rounded-lg w-56 h-24"></a>
+                            <div class=" pt-9 absolute inset-0 px-6 bg-gradient-to-r from-red-700 hover:from-orange-500 rounded-lg w-32 ">
+                                    <span class="font-bold text-white text-lg">Rengoku<span>
+                                </div>
+                            </div>
+                </section>
+                </section>
+
+                </section>  
+
+        <!--Netflix Originals Section-->         
+        <section class="mx-12 space-y-4">
+            <h1 class="text-white text-2xl font-bold">
+                Netflix Originals
+            </h1>
+            <div class="w-auto overflow-x-scroll no-scrollbar">
+                <div class="flex space-x-4 w-max">
+                    
+                        <img class="rounded-lg w-80" src ="assets/img/images main/fusion.jpg">
+                    
+                        <img class="rounded-lg w-80" src="assets/img/images main/bleach.jpg">
+                    
+                        <img class="rounded-lg w-80" src="assets/img/images main/komi.jpg">
+                    
+                        <img class="rounded-lg w-80" src="assets/img/images main/oussama.jpg">
+                    
+                        <img class="rounded-lg w-80" src="assets/img/images main/tr.jpg">
+                        
+                        <img class="rounded-lg w-80" src="assets/img/images main/undertale.jpg">
+
+                        <img class="rounded-lg w-80" src="assets/img/images main/mushoku.webp">
+
+                        <img class="rounded-lg w-80" src="assets/img/images main/shadow.jpg">
+                 </div>
+                
+            </div>
+        </section>
+        
+        
+        <!--Top 10 on planet Mars Today Section--> 
+        <section class="mt-4 mx-12 space-y-4 w-auto overflow-x-scroll no-scrollbar">
+            <h1 class="text-white text-2xl font-bold">Top 10 on planet Mars Today</h1>
+            
+                <div class="flex space-x-2 w-max flex h-60">
+                    
+                        <img src="assets/img/images main/numbers/thumbnails_top_1.png" alt="">
+                        <img src="assets/img/images main/lupin.png" alt="" class="rounded-lg">
+                    
+                    
+                        <img src="assets/img/images main/numbers/thumbnails_top_2.png" alt="">
+                        <img src="assets/img/images main/3.png" alt="" class="rounded-lg">
+                    
+                    
+                        <img src="assets/img/images main/numbers/thumbnails_top_3.png" alt="">
+                        <img src="assets/img/images main/ragnarok.png" alt="" class="rounded-lg">
+                    
+                    
+                        <img src="assets/img/images main/numbers/thumbnails_top_4.png" alt="">
+                        <img src="assets/img/images main/sweethome.png" alt="" class="rounded-lg">
+                    
+                    
+                        <img src="assets/img/images main/numbers/thumbnails_top_5.png" alt="">
+                        <img src="assets/img/images main/holmes.png" alt="" class="rounded-lg">
+                    
+                    
+                        <img src="assets/img/images main/numbers/thumbnails_top_6.png" alt="">
+                        <img src="assets/img/images main/elsword.jpg" alt="" class="rounded-lg">
+                    
+                    
+                        <img src="assets/img/images main/numbers/thumbnails_top_7.png" alt="">
+                        <img src="assets/img/images main/w101.jpg" alt="" class="rounded-lg">
+                    
+                    
+                        <img src="assets/img/images main/numbers/thumbnails_top_8.png" alt="">
+                        <img src="assets/img/images main/death.jpg" alt="" class="rounded-lg">
+                    
+                    
+                        <img src="assets/img/images main/numbers/thumbnails_top_9.png" alt="">
+                        <img src="assets/img/images main/drstone.jpg" alt="" class="rounded-lg"> 
+                    
+                    
+                        <img src="assets/img/images main/numbers/thumbnails_top_10.png" alt="">
+                        <img src="assets/img/images main/mdzs.jpg" alt="" class="rounded-lg">
+                    
+                </div>
+            </div>
+        </section>
+
+         <!--Integral of Jojo's Section--> 
+        <section class=" my-6 mx-12 space-y-4 ">
+            
+            <h1 class="text-white text-2xl font-bold">Integral of Jojo's</h1>
+            <div class="overflow-x-scroll no-scrollbar ">
+            <div class="flex space-x-2 h-48">
+                    
+                    
+                    <img src="assets/img/images main/jojop1.jpg" alt="jojop1" class="rounded-lg w-80  lg">
+                    
+                    
+                    <img src="assets/img/images main/jojo p2.jpg" alt="jojop2" class="rounded-lg w-80  lg">
+                    
+                    
+                    <img src="assets/img/images main/jojo p3.jpg" alt="jojop3" class="rounded-lg w-80  lg">
+                    
+                    
+                    <img src="assets/img/images main/jojo p4.png" alt="jojop4" class="rounded-lg w-80  lg">
+                    
+                    
+                    <img src="assets/img/images main/jojo p5.webp" alt="jojop5" class="rounded-lg w-80  lg">
+                    
+                    <img src="assets/img/images main/jojo p6.jpg" alt="jojop6" class="rounded-lg w-80  lg">
+                    
+            </div>
+            </div>
+        </section>
+
+    </section>
+
+     <!--Asian Series Section--> 
+    <section class="mx-12 my-6 space-y-4">
+        <h1 class="text-white text-2xl font-bold">Asian Series </h1>
+        <div class=" w-auto overflow-x-scroll no-scrollbar ">
+            <div class="flex space-x-2">
+                
+                    <img class="rounded-lg w-80 " src="assets/img/images main/a love so.jpg">
+                
+                
+                    <img  class="rounded-lg w-80 "src="assets/img/images main/ano hana.jpg">
+                
+                
+                    <img class="rounded-lg w-80 " src="assets/img/images main/darling.jpg">
+                
+                
+                    <img class="rounded-lg w-80 " src="assets/img/images main/inazuma.jpg">
+            
+                
+                    <img class="rounded-lg w-80 " src="assets/img/images main/garcon d'a coté.jpg">
+                
+                    <img class="rounded-lg w-80 " src="assets/img/images main/love alarm.jpg">
+                
+            </div>
+        </div>
+    </section>
+
+    <!--Japenese Series Section--> 
+    <section class="mx-12 my-6 space-y-4">
+        <h1 class="text-white text-2xl font-bold">Japenese Series </h1>
+        <div class=" w-auto overflow-x-scroll no-scrollbar ">
+            <div class="flex space-x-2">
+                
+                    <img class="rounded-lg w-80 " src="assets/img/images main/tg.png">
+                
+                
+                    <img  class="rounded-lg w-80 "src="assets/img/images main/ds.jpg">
+                
+                
+                    <img class="rounded-lg w-80 " src="assets/img/images main/dsm.webp">
+                
+                
+                    <img class="rounded-lg w-80 " src="assets/img/images main/jjk.jpg">
+            
+                
+                    <img class="rounded-lg w-80 " src="assets/img/images main/je veux manger.jpg">
+                
+                    <img class="rounded-lg w-80 " src="assets/img/images main/jjkm.jpg ">
+                
+            </div>
+        </div>
+    </section>
+
+    <!--Even More Japenese Series Section--> 
+    <section class="mx-12 my-6 space-y-4">
+        <h1 class="text-white text-2xl font-bold">Even More Japenese Series </h1>
+        <div class=" w-auto overflow-x-scroll no-scrollbar ">
+            <div class="flex space-x-2">
+                
+                    <img class="rounded-lg w-80 " src="assets/img/images main/redo.png">
+                
+                
+                    <img  class="rounded-lg w-80 "src="assets/img/images main/hanako.jpg">
+                
+                
+                    <img class="rounded-lg w-80 " src="assets/img/images main/ngnl.jpg">
+                
+                
+                    <img class="rounded-lg w-80 " src="assets/img/images main/devilman.jpg">
+            
+                
+                    <img class="rounded-lg w-80 " src="assets/img/images main/dorohedoro.jpg">
+                
+                    <img class="rounded-lg w-80 " src="assets/img/images main/ajin.png ">
+                
+            </div>
+        </div>
+    </section>
+
+    <!--Even More Anime Section--> 
+    <section class="mx-12 my-6 space-y-4">
+        <h1 class="text-white text-2xl font-bold">Even More Anime </h1>
+        <div class=" w-auto overflow-x-scroll no-scrollbar ">
+            <div class="flex space-x-2">
+                
+                    <img class="rounded-lg w-80 " src="assets/img/images main/haikyuu.jpg">
+                
+                
+                    <img  class="rounded-lg w-80 "src="assets/img/images main/parasyte.jpg">
+                
+                
+                    <img class="rounded-lg w-80 " src="assets/img/images main/mp100.jpg">
+                
+                
+                    <img class="rounded-lg w-80 " src="assets/img/images main/tye.webp">
+            
+                
+                    <img class="rounded-lg w-80 " src="assets/img/images main/kaguya.jpg">
+                
+                    <img class="rounded-lg w-72 " src="assets/img/images main/blue spring.webp ">
+                
+            </div>
+        </div>
+    </section>
+
+
+        <!--Footer Section--> 
+        <footer>
+            <section class="ml-20 mb-12">
+                <div class="text-gray-400 text-4xl mt-40 space-x-4 ">
+                    <i class="fa-brands fa-facebook-f cursor-pointer hover:text-gray-200"></i> <i class="fa-brands fa-instagram cursor-pointer hover:text-gray-200"></i> <i class="fa-brands fa-twitter cursor-pointer hover:text-gray-200"></i> <i class="fa-brands fa-youtube cursor-pointer hover:text-gray-200"></i>
+                </div>
+                <section class=" flex justify-between content-center text-base text-gray-400">
+                <div>
+                    <div class="justify-center xl:gap-36 grid grid-cols-2 md:grid-cols-3 md lg:grid-cols-4 lg:gap-20  mt-4">
+                        <div>
+                            <div class="mb-3">
+                                <a href="#" class="text-gray-400 hover:underline hover:text-gray-50">Audio and Subtitles</a>
+                            </div>
+                            <div class="mb-3">
+                                <a href="#" class="text-gray-400 hover:underline hover:text-gray-50">Media Center</a>
+                            </div>
+                            <div class="mb-3">
+                                <a href="#" class="text-gray-400 hover:underline hover:text-gray-50">Privacy</a>
+                            </div>
+                            <div class="mb-3">
+                                <a href="#" class="text-gray-400 hover:underline hover:text-gray-50">Contact Us</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="mb-3">
+                                <a href="#" class="text-gray-400 hover:underline hover:text-gray-50">Audio Description</a>
+                            </div>
+                            <div class="mb-3">
+                                <a href="#" class="text-gray-400 hover:underline hover:text-gray-50">Investor Relations</a>
+                            </div>
+                            <div class="mb-3">
+                                <a href="#" class="text-gray-400 hover:underline hover:text-gray-50">Legal Notices</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="mb-3">
+                                <a href="#" class="text-gray-400 hover:underline hover:text-gray-50">Help Center</a>
+                            </div>
+                            <div class="mb-3">
+                                <a href="#" class="text-gray-400 hover:underline hover:text-gray-50">Jobs</a>
+                            </div>
+                            <div class="mb-3">
+                                <a href="#" class="text-gray-400 hover:underline hover:text-gray-50">Cookie Preferences</a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="mb-3">
+                                <a href="#" class="text-gray-400 hover:underline hover:text-gray-50">Gift Cards</a>
+                            </div>
+                            <div class="mb-3">
+                                <a href="#" class="text-gray-400 hover:underline hover:text-gray-50">Terms of Use</a>
+                            </div>
+                            <div class="mb-3">
+                                <a href="#" class="text-gray-400 hover:underline hover:text-gray-50">Corporate information</a>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <div>
+                        <button class="items-center border-gray-400 border mt-5 p-2 ">
+                            <span class="text-gray-400 hover:text-gray-50">Service Code</span>
+                        </button>
+                    </div>
+                    <div class="mt-5">
+                        <a href="#" class="text-gray-400 hover:underline hover:text-gray-50">© 1997-2022 Netflix, Inc. {i-J0j0F4N48ver}</a>
+                    </div>
+                </div>
+                </section>
+            </section>
+        </footer>
+
+
+    </body>
+
+</html>
