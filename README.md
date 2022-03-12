@@ -11,6 +11,6 @@
 
 * I also added a category dedicated to Jojo's, a footer and remove the overflow when you slide on website
 
- *If not pray for Ukrane
+ *If not pray for Ukrane*
 
 Skeeven Men
